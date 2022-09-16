@@ -1,0 +1,11 @@
+# Задача 5. Реализуйте алгоритм перемешивания списка.
+
+import random
+list = ['Moscow', 'St.Petersburg', 'Bishkek', 'Osh']
+
+def mixList(list):
+    random.shuffle(list)
+    print(f'Перемешанный список: {list}')
+
+print(f'Исходный список: {list}')
+res = mixList(list)
